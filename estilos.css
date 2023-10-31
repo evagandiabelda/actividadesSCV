@@ -1,0 +1,105 @@
+/* GENERAL */
+
+html {
+    font-family: 'Open Sans';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+    align-items: stretch;
+    background-image: url('./images/img-fondo-header.jpg');
+    background-size: cover;
+}
+
+#logo-web {
+    width: 200px;
+    height: auto;
+}
+
+#titulo-web {
+    color: white;
+    font-size: 43px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 8px 10px 0px;
+}
+
+#subtitulo-web {
+    color: #bdd3aa;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 15px 0px;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#contenedor-vertical {
+    background-color: #fff4af;
+    margin: 0px;
+    height: 100vh;
+}
+
+#menu-principal {
+    width: 200px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu-principal a {
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 10px 18px;
+}
+
+#menu-principal a:active {
+    color: #5f7c68;
+}
+
+#menu-principal a:hover {
+    background-color: #bdd3aa;
+}
+
+.contenido-pagina {
+    width: auto;
+    padding: 0px 20px 50px 30px;
+}
+
+blockquote {
+    font-style: italic;
+    color: rgb(172, 172, 172);
+    margin: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
