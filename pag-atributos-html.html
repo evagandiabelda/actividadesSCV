@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curso de Javascript aplicado a interacciones con elementos HTML</title>
+    <meta name="description"
+        content="Actividad de Sistemas de Control de Versiones para la asignatura de Despliegue de Aplicaciones Web." />
+    <meta name="keywords" content="GIT, HTML, CSS" />
+    <meta name="author" content="Eva Gandia Belda">
+    <link href="./images/favicon.png" rel="shortcut icon" type=“image/x-icon” />
+    <link rel="stylesheet" type="text/css" media="screen" href="./estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <header>
+
+        <img src="./images/logo.png" alt="logo-web">
+        <div>
+            <h1>Curso de Javascript</h1>
+            <h2>Aplicado a interacciones con elementos HTML</h2>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./pag-contenido-html.html">Modificar contenido HTML</a>
+                <a href="./pag-contenido.css.html">Modificar estilos CSS</a>
+                <a href="./pag-atributos-html.html">Modificar atributos HTML</a>
+            </nav>
+        </div>
+
+        <div>
+            <h2>Cómo modificar atributos HTML"</h2>
+            <p>JavaScript ofrece una potente capacidad para modificar atributos de elementos HTML en tiempo real. Esto
+                es esencial para interactuar con tu página web y cambiar dinámicamente ciertos aspectos de tus
+                elementos. Una tarea común es la modificación de atributos, como el atributo <code>src</code> de una
+                imagen o el
+                atributo <code>href</code> de un enlace.</p>
+            <p>Un ejemplo sencillo es cambiar la fuente de una imagen cuando el usuario hace clic en un botón. Aquí está
+                el código HTML y JavaScript que realiza esta acción:</p>
+            <code>
+                <!DOCTYPE html>
+                <html>
+                <body>
+
+                <h2>Cambiar la Fuente de una Imagen</h2>
+
+                <img id="mi-imagen" src="imagen-1.jpg" alt="Imagen 1">
+
+                <button onclick="cambiarImagen()">Cambiar Imagen</button>
+
+                <script>
+                    function cambiarImagen() {
+                        document.getElementById("mi-imagen").src = "imagen-2.jpg";
+                    }
+                </script>
+
+                </body>
+                </html>
+            </code>
+            <p>En este ejemplo, tenemos una imagen con el atributo <code>src</code> inicialmente configurado en
+                <em>"imagen-1.jpg"</em>.
+                Cuando el usuario hace clic en el botón, se llama a la función <code>cambiarImagen()</code>, que utiliza
+                JavaScript
+                para cambiar el valor del atributo <code>src</code> de la imagen a <em>"imagen-2.jpg"</em>. Como
+                resultado, la imagen se
+                actualiza con una nueva fuente.</p>
+            <p>Este es solo un ejemplo simple de cómo JavaScript puede modificar atributos HTML. Puedes aplicar esta
+                técnica para ajustar enlaces, imágenes, estilos y otros atributos en función de las interacciones del
+                usuario, lo que te brinda un mayor control sobre la apariencia y el comportamiento de tu página web.</p>
+            <p>¡Experimenta y descubre las infinitas posibilidades de modificar atributos HTML con JavaScript para
+                mejorar la interacción y la experiencia del usuario en tu sitio web!</p>
+
+            <blockquote>
+                <p>Texto generado con ChatGPT.</p>
+            </blockquote>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p>Página creada por Eva Gandia Belda para la actividad de "Sistemas de Control de Versiones" de la asignatura
+            de Despliegue de Aplicaciones Web.</p>
+
+    </footer>
+
+</body>
+
+</html>

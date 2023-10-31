@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curso de Javascript aplicado a interacciones con elementos HTML</title>
+    <meta name="description"
+        content="Actividad de Sistemas de Control de Versiones para la asignatura de Despliegue de Aplicaciones Web." />
+    <meta name="keywords" content="GIT, HTML, CSS" />
+    <meta name="author" content="Eva Gandia Belda">
+    <link href="./images/favicon.png" rel="shortcut icon" type=“image/x-icon” />
+    <link rel="stylesheet" type="text/css" media="screen" href="./estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <header>
+
+        <img src="./images/logo.png" alt="logo-web">
+        <div>
+            <h1>Curso de Javascript</h1>
+            <h2>Aplicado a interacciones con elementos HTML</h2>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./pag-contenido-html.html">Modificar contenido HTML</a>
+                <a href="./pag-contenido.css.html">Modificar estilos CSS</a>
+                <a href="./pag-atributos-html.html">Modificar atributos HTML</a>
+            </nav>
+        </div>
+
+        <div>
+            <h2>Cómo modificar contenido HTML"</h2>
+            <p>JavaScript es un lenguaje de programación ampliamente utilizado en el desarrollo web, y una de sus
+                capacidades más notables es la capacidad de modificar el contenido HTML de una página en tiempo real.
+                Esto permite crear experiencias interactivas y dinámicas para los usuarios.</p>
+            <p>Un ejemplo sencillo de cómo JavaScript puede cambiar el contenido HTML es el uso del método
+                <code>getElementById</code>. En el código de ejemplo a continuación, tenemos un párrafo HTML
+                identificado con el
+                <code>id="demo"</code> y un botón que, al hacer clic en él, cambiará el contenido del párrafo:
+            </p>
+            <code>
+                <!DOCTYPE html>
+                <html>
+                <body>
+
+                <h2>What Can JavaScript Do?</h2>
+
+                <p id="demo">JavaScript can change HTML content.</p>
+
+                <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+                </body>
+                </html>
+            </code>
+            <p>Cuando haces clic en el botón, el JavaScript toma el elemento con el <code>id="demo"</code> y modifica su
+                contenido
+                utilizando la propiedad <code>innerHTML</code>. En este caso, el contenido del párrafo se actualiza a
+                <em>"Hello
+                    JavaScript!"</em>.
+            </p>
+            <p>Este es solo un ejemplo simple de lo que JavaScript puede lograr en la manipulación del contenido HTML.
+                Puedes utilizar JavaScript para realizar tareas más complejas, como cambiar estilos, agregar o eliminar
+                elementos, gestionar formularios y mucho más, lo que abre un mundo de posibilidades en la creación de
+                sitios web dinámicos y atractivos.</p>
+            <p>¡Explora y experimenta con JavaScript para descubrir todas las formas en que puedes modificar y mejorar
+                el contenido de tu página web!</p>
+            <blockquote>
+                <p>Texto generado con ChatGPT.</p>
+            </blockquote>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p>Página creada por Eva Gandia Belda para la actividad de "Sistemas de Control de Versiones" de la asignatura
+            de Despliegue de Aplicaciones Web.</p>
+
+    </footer>
+
+</body>
+
+</html>
