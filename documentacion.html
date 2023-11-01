@@ -3,14 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Curso de Javascript aplicado a interacciones con elementos HTML</title>
-    <meta name="description"
-        content="Actividad de Sistemas de Control de Versiones para la asignatura de Despliegue de Aplicaciones Web." />
-    <meta name="keywords" content="GIT, HTML, CSS" />
-    <meta name="author" content="Eva Gandia Belda">
-    <link href="./images/favicon.png" rel="shortcut icon" type=“image/x-icon” />
-    <link rel="stylesheet" type="text/css" media="screen" href="./estilos.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <<<<<<< HEAD <title>Curso de Javascript aplicado a interacciones con elementos HTML</title>
+        <meta name="description"
+            content="Actividad de Sistemas de Control de Versiones para la asignatura de Despliegue de Aplicaciones Web." />
+        =======
+        <title>Documentación Web Curso de Javascript</title>
+        <meta name="description" content="Documentación sobre el proyecto web 'Curso de Javascript'." />
+        >>>>>>> estructura
+        <meta name="keywords" content="GIT, HTML, CSS" />
+        <meta name="author" content="Eva Gandia Belda">
+        <link href="./images/favicon.png" rel="shortcut icon" type=“image/x-icon” />
+        <link rel="stylesheet" type="text/css" media="screen" href="./estilos.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
@@ -29,30 +33,265 @@
 
         <div id="contenedor-vertical">
             <nav id="menu-principal">
-                <a href="./index.html">Home</a>
-                <a href="./pag-contenido-html.html">Modificar contenido HTML</a>
-                <a href="./pag-contenido-css.html">Modificar estilos CSS</a>
-                <a href="./pag-atributos-html.html">Modificar atributos HTML</a>
+                <a href="#introduccion">Introducción</a>
+                <a href="#metodologia">Metodología elegida</a>
+                <a href="#proceso">Proceso realizado</a>
+                <a href="#producto">Producto final </a>
             </nav>
         </div>
 
         <div class="contenido-pagina">
-            <h2>Bienvenidos al "Curso de JavaScript aplicado a interacciones con elementos HTML"</h2>
-            <p>En esta emocionante travesía a través del mundo del desarrollo web, te invitamos a explorar las
-                maravillas de JavaScript aplicado a la interacción con elementos HTML. Este curso te proporcionará las
-                herramientas y los conocimientos necesarios para convertirte en un maestro de la interactividad en la
-                web.</p>
-            <p>Descubrirás cómo JavaScript, uno de los lenguajes de programación más versátiles, puede potenciar tus
-                proyectos web. Desde la creación de efectos dinámicos hasta la manipulación de elementos HTML, aquí
-                aprenderás a dar vida a tus ideas de manera creativa y efectiva.</p>
-            <p>Nuestro objetivo es brindarte las habilidades esenciales para desarrollar experiencias web únicas y
-                atractivas. ¿Estás listo para embarcarte en esta apasionante aventura? ¡Únete a nosotros y desbloquea
-                todo el potencial de JavaScript en tu mundo digital!</p>
-            <p>Explora los misterios de la programación web y adquiere las habilidades que te permitirán crear
-                interacciones sorprendentes en tu sitio web. ¡Comienza tu viaje de aprendizaje ahora!</p>
-            <blockquote>
-                <p>Texto generado con ChatGPT.</p>
-            </blockquote>
+
+            <h2>Proceso de desarrollo de la web "Curso de Javascript"</h2>
+
+            <section id="introduccion">
+                <h3>Introducción</h3>
+                <p>Git es un sistema de control de versiones distribuido ampliamente utilizado en el desarrollo de
+                    software y en la gestión de proyectos colaborativos. Fue creado por Linus Torvalds en 2005 y se ha
+                    convertido en una herramienta esencial para programadores, diseñadores y profesionales de diversas
+                    disciplinas que trabajan en entornos donde la gestión de cambios y la colaboración son
+                    fundamentales.</p>
+                <p>En esencia, Git es una herramienta que permite rastrear y gestionar los cambios en los archivos de un
+                    proyecto a lo largo del tiempo. Lo hace mediante un sistema de control de versiones que registra
+                    cada modificación realizada en los archivos, lo que facilita la colaboración entre múltiples
+                    personas, la gestión de ramas de desarrollo y la reversión a versiones anteriores en caso de ser
+                    necesario.</p>
+                <p>Una de las características más destacadas de Git es su enfoque distribuido, lo que significa que cada
+                    colaborador de un proyecto tiene su propia copia local del repositorio completo. Esto no solo brinda
+                    flexibilidad en el trabajo desconectado, sino que también reduce la dependencia de un servidor
+                    centralizado, lo que hace que Git sea altamente resistente a fallos y adecuado para proyectos de
+                    cualquier tamaño.</p>
+                <p>En este documento, exploraremos los conceptos fundamentales de Git, sus ventajas y cómo utilizarlo de
+                    manera efectiva en el desarrollo de aplicaciones web. Aprenderás cómo realizar seguimiento de
+                    cambios, colaborar con otros miembros del equipo y gestionar versiones de tu proyecto de manera
+                    eficiente, lo que te permitirá mantener un control preciso sobre el desarrollo de tu aplicación web
+                    y facilitará la implementación de mejores prácticas en la gestión de proyectos.</p>
+            </section>
+
+            <section id="metodologia">
+                <h3>Metodología elegida</h3>
+                <p>La elección de la metodología GithubFlow para la gestión del flujo de trabajo en nuestro proyecto se
+                    basa en consideraciones específicas que se ajustan a las necesidades y las dimensiones de nuestro
+                    equipo de desarrollo, compuesto por tres programadores. A continuación, se presentan las razones
+                    clave para esta elección:</p>
+                <ul>
+                    <li><strong>Simplicidad y Claridad:</strong> GithubFlow es conocido por su simplicidad y claridad en
+                        la gestión del
+                        flujo de trabajo. Esto lo hace especialmente adecuado para equipos pequeños, donde la
+                        simplicidad es esencial para mantener la agilidad y minimizar la complejidad en la colaboración.
+                        La facilidad de comprensión de GithubFlow permite que todos los miembros del equipo,
+                        independientemente de su experiencia, se integren rápidamente en el proceso.</li>
+                    <li><strong>Flujo Lineal de Trabajo:</strong> GithubFlow sigue un flujo de trabajo lineal, que
+                        consiste en crear
+                        ramas para cada nueva característica o corrección, realizar confirmaciones regulares y fusionar
+                        las ramas en la rama principal cuando se completa el trabajo. Para un equipo pequeño como el
+                        nuestro, este enfoque directo ayuda a mantener un progreso constante y permite una mayor
+                        visibilidad de los cambios realizados.</li>
+                    <li><strong>Implementación Continua (CI) y Despliegue Continuo (CD):</strong> GithubFlow se integra
+                        de manera
+                        efectiva con prácticas de CI/CD, lo que facilita la automatización de pruebas y despliegues.
+                        Esta característica es esencial para asegurar la calidad y la entrega constante de nuevas
+                        características, incluso en proyectos más pequeños, donde la eficiencia es crucial.</li>
+                    <li><strong>Control de Versiones:</strong> GithubFlow permite un control preciso de las versiones de
+                        nuestro
+                        proyecto. Cada confirmación se refleja en una solicitud de extracción, lo que facilita la
+                        revisión y la aprobación antes de la fusión. Esto es esencial para mantener la calidad y la
+                        integridad del código, independientemente del tamaño del equipo.</li>
+                    <li><strong>Flexibilidad en la Colaboración:</strong> GithubFlow fomenta la colaboración continua y
+                        flexible. Cada
+                        miembro del equipo puede trabajar en sus propias ramas sin interferir con el trabajo de los
+                        demás. Esto se traduce en una colaboración eficiente y sin conflictos.</li>
+                </ul>
+            </section>
+
+            <section id="proceso">
+
+                <h3>Proceso realizado</h3>
+
+                <p>El proyecto se lleva a cabo por un equipo de 3 programadores:</p>
+                <ul>
+                    <li><strong>Usuario 1:</strong> Programador al cargo del proyecto</li>
+                    <li><strong>Usuario 2:</strong> Programador encargado de la estructura HTML</li>
+                    <li><strong>Usuario 3:</strong> Programador encargado de los estilos CSS</li>
+                </ul>
+
+                <h4>Estructura básica inicial (usuario 1)</h4>
+                <p>A partir de esta distribución del trabajo, el Usuario 1 empieza creando el repositorio del proyecto e
+                    implementando la estructura inicial del proyecto utilizando el <em>boilerplate</em> proporcionado:
+                </p>
+                <figure>
+                    <img src="./images/capturas/1 - Inicialización de repositorio.png"
+                        alt="Inicialización de repositorio">
+                    <figcaption>Inicializamos el repositorio.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/2 - Boilerplate añadido.png" alt="Boilerplate añadido">
+                    <figcaption>Añadimos el boilerplate.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/3 - Abrimos VSCode.png" alt="Abrimos VSCode">
+                    <figcaption>Abrimos VSCode.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/4 - Creamos archivos.png" alt="Creamos archivos">
+                    <figcaption>Creamos archivos.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/5 - Primer commit.png" alt="Primer commit">
+                    <figcaption>Realizamos un primer commit.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/6 - Creación de dos ramas.png" alt="Creación de dos ramas">
+                    <figcaption>Creamos 2 ramas paralelas para trabajar cada uno de los aspectos.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/7 - Asociación local-remoto.png" alt="Asociación local-remoto">
+                    <figcaption>Asociamos el repositorio local con un repositorio remoto.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/8 - Push a remoto.png" alt="Push a remoto">
+                    <figcaption>Subimos al servidor remoto todo el contenido del repositorio local.</figcaption>
+                </figure>
+
+                <h4>Features (usuarios 2 y 3)</h4>
+                <p>Una vez el Usuario 1 ha preparado la estructura básica para trabajar, los Usuarios 2 y 3 añadirán
+                    algunas sub-ramas llamadas <em>features</em>:</p>
+                <figure>
+                    <img src="./images/capturas/9 - Creación de features HTML y push (con vinculación) a remoto.png"
+                        alt="Creación de features HTML y push (con vinculación) a remoto">
+                    <figcaption>Creamos los features HTML y realizamos un push (con vinculación) a remoto.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/10 - Creación de feature CSS y push (con vinculación) a remoto.png"
+                        alt="Creación de feature CSS y push (con vinculación) a remoto">
+                    <figcaption>Creamos los features CSS y realizamos un push (con vinculación) a remoto.</figcaption>
+                </figure>
+
+                <h4>Diseño de la estructura básica de la web (usuario 1)</h4>
+                <p>El Usuario 1 etiquetará el proyecto como <em>Versión 1.0</em> e implementará la estructura básica de
+                    la web, formada por una cabecera con el título, un
+                    menú para las distintas secciones, una página de inicio con una breve introducción y un footer:</p>
+                <figure>
+                    <img src="./images/capturas/11 - Creación etiqueta y rama test.png"
+                        alt="Creación etiqueta y rama test">
+                    <figcaption>Etiquetamos el repositorio e incluimos una nueva rama denominada "test".</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/12 - Creación estructura HTML básica y check de archivo que no están siendo trackeados.png"
+                        alt="Creación estructura HTML básica y check de archivo que no están siendo trackeados">
+                    <figcaption>Creamos la estructura HTML básica de los apartados de la web y realizamos un check para
+                        ver qué archivos no están siendo trackeados todavía.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/13 - Commit Usuario 1.png" alt="Commit Usuario 1">
+                    <figcaption>El Usuario 1 realiza un primer commit de los cambios que ha realizado.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/14 - Push Usuario 1.png" alt="Push Usuario 1">
+                    <figcaption>A continuación, realiza el push al repositorio remoto.</figcaption>
+                </figure>
+
+                <h4>Generación del contenido de los apartados referentes al HTML (usuario 2)</h4>
+                <p>El Usuario 2 trabajará a través de la rama <em>"estructura"</em> e implementará todo el contenido de
+                    los apartados <em>"Modificar contenido HTML"</em> y <em>"Modificar atributos HTML"</em>:</p>
+                <figure>
+                    <img src="./images/capturas/15 - Cambio a la rama estructura.png" alt="Cambio a la rama estructura">
+                    <figcaption>Cambiamos a la rama <em>"estructura"</em>.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/16 - Merge con rama master.png" alt="Merge con rama master">
+                    <figcaption>Realizamos un <em>merge</em> con la rama <em>"master"</em> para poder copiar su
+                        contenido y trabajar sobre éste.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/17 - Creación contenido usuario 2 y check de archivos que no están siendo trackeados.png"
+                        alt="Creación contenido usuario 2 y check de archivos que no están siendo trackeados">
+                    <figcaption>Generamos el contenido asignado al Usuario 2 y comprobamos qué archivos no están siendo
+                        trackeados.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/18 - Commit Usuario 2.png" alt="Commit Usuario 2">
+                    <figcaption>Realizamos un commit de los cambios añadidos.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/19 - Push Usuario 2.png" alt="Push Usuario 2">
+                    <figcaption>Subimos los cambios al repositorio remoto.</figcaption>
+                </figure>
+
+                <h4>Generación del contenido de los apartados referentes al CSS (usuario 3)</h4>
+                <p>De la misma forma, el Usuario 3 se encargará de trabajar a través de la rama <em>"estilos"</em> e
+                    implementará todo el contenido del apartado <em>"Modificar contenido CSS"</em>:</p>
+                <figure>
+                    <img src="./images/capturas/20 - Cambio a la rama estilos.png" alt="Cambio a la rama estilos">
+                    <figure>Cambiamos para trabajar en la rama <em>"estilos"</em>.</figure>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/21 - Merge con rama master.png" alt="Merge con rama master">
+                    <figcaption>Realizamos un <em>merge</em> con la rama <em>"master"</em> para poder copiar su
+                        contenido y trabajar sobre éste.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/22 - Creación contenido usuario 3 y check de archivos que no están siendo trackeados.png"
+                        alt="Creación contenido usuario 3 y check de archivos que no están siendo trackeados">
+                    <figcaption>Generamos el contenido asignado al Usuario 3 y comprobamos qué archivos no están siendo
+                        trackeados.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/23 - Commit Usuario 3.png" alt="Commit Usuario 3">
+                    <figcaption>Realizamos un commit de los cambios añadidos.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/24 - Push Usuario 3.png" alt="Push Usuario 3">
+                    <figcaption>Subimos los cambios al repositorio remoto.</figcaption>
+                </figure>
+
+                <h4>Comprobación de los cambios e inclusión en la rama <em>"master"</em> (usuario 1)</h4>
+                <p>Una vez los Usuarios 1 y 2 han subido su trabajo a sus respectivas ramas, el Usuario 1 comprobará que
+                    todo esté correcto y añadirá estas nuevas implementaciones a la rama principal:</p>
+                <figure>
+                    <img src="./images/capturas/25 - Volvemos a master.png" alt="Volvemos a master">
+                    <figcaption>Volvemos a situarnos en la rama <em>"master"</em>.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/26 - Añadimos cambios hechos en las otras ramas.png"
+                        alt="Añadimos cambios hechos en las otras ramas">
+                    <figcaption>Añadimos los cambios hechos en las otras ramas.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/27 - Algunas correcciones implementadas por el usuario 1.png"
+                        alt="Algunas correcciones implementadas por el usuario 1">
+                    <figcaption>Tras detectar un pequeño error en la denominación de uno de los archivos de la
+                        estructura de la web, realizamos la correccion necesaria y un nuevo commit.</figcaption>
+                </figure>
+
+                <h4>Página de documentación (usuario 2)</h4>
+                <p>Ahora que ya tenemos lista la primera versión de nuestro proyecto, podemos empezar a diseñar una
+                    página de documentación que recoja todo el proceso llevado a cabo:</p>
+                <figure>
+                    <img src="./images/capturas/28 - Cambio a la rama estructura y diseño estructura pag documentacion.png"
+                        alt="Cambio a la rama estructura y diseño estructura pag documentacion">
+                    <figcaption>Cambiamos a la rama <em>"estructura"</em> y diseñamos la estructura que tendrá nuestra
+                        página de documentación.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/29 - Commit usuario 2.png" alt="Commit usuario 2">
+                    <figcaption>Realizamos un commit con los cambios.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/capturas/30 - Redaccion secciones 1 y 2 + commit usuario 2.png"
+                        alt="Redaccion secciones 1 y 2 + commit usuario 2">
+                    <figcaption>Redactamos el contenido de las secciones de <em>"Introducción"</em> y
+                        <em>"Metodología"</em> y realizamos otro commit.
+                    </figcaption>
+                </figure>
+
+            </section>
+
+            <section id="producto">
+                <h3>Producto final</h3>
+                <p></p>
+            </section>
+
         </div>
 
     </main>
