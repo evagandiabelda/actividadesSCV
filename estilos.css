@@ -127,6 +127,10 @@ p {
     padding-left: 15px;
 }
 
+a {
+    color: #5f7c68;
+}
+
 blockquote {
     font-style: italic;
     color: rgb(172, 172, 172);
