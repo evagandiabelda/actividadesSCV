@@ -2,16 +2,21 @@
 
 html {
     font-family: 'Open Sans';
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 body {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 /* HEADER */
 
 header {
+    position: fixed;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -21,6 +26,7 @@ header {
     align-items: stretch;
     background-image: url('./images/img-fondo-header.jpg');
     background-size: cover;
+    z-index: 200;
 }
 
 #logo-web {
@@ -48,16 +54,21 @@ header {
 main {
     display: flex;
     flex-direction: row;
+    margin-top: 109px;
 }
 
 #contenedor-vertical {
+    position: fixed;
+    left: 0;
+    width: 200px;
     background-color: #fff4af;
     margin: 0px;
-    height: 100vh;
+    min-height: 100vh;
+    overflow-y: auto;
+    z-index: 200;
 }
 
 #menu-principal {
-    width: 200px;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
@@ -83,13 +94,60 @@ main {
 
 .contenido-pagina {
     width: auto;
-    padding: 0px 20px 50px 30px;
+    text-align: center;
+    margin: 10px 40px 50px 230px;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    text-align: left;
+}
+
+h2 {
+    color: #5f7c68;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 45px 0px 20px;
+    padding: 10px;
+    border-bottom: 1px solid #bababa;
+}
+
+h4 {
+    color: #5f7c68;
+    font-size: 16px;
+    margin: 30px 0px 10px;
+    padding-left: 10px;
+}
+
+p {
+    padding-left: 15px;
 }
 
 blockquote {
     font-style: italic;
     color: rgb(172, 172, 172);
     margin: 20px;
+}
+
+figure {
+    display: inline-block;
+    max-width: 760px;
+    overflow: hidden;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure figcaption {
+    font-style: italic;
+    color: rgb(172, 172, 172);
+    margin: 5px 0px 20px;
 }
 
 /* FOOTER */
@@ -102,4 +160,5 @@ footer {
     color: white;
     margin: 0px;
     padding: 20px;
+    z-index: 201;
 }
